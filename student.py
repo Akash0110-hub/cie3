@@ -6,5 +6,10 @@ def student_registration(student_id, student_name, course_enrolled, academic_yea
         f"Academic Year    : {academic_year}"
     )
 if __name__ == "__main__":
-    result = student_registration(...)
-    print(result)
+    #sample output
+    student_id:"0110"
+    student_name:"Aakash"
+    course_enrolled: "Bca"
+    academic_year:"2025-26"
+    print(student_registration(student_id, student_name, course_enrolled, academic_year))
+
